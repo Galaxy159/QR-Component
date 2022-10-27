@@ -1,0 +1,29 @@
+.component {
+  display: grid;
+  padding: 1.6rem;
+  text-align: center;
+  margin-bottom: 15.2rem;
+
+  &__qrcode {
+    border-radius: 1rem;
+    margin-bottom: 2.4rem;
+    height: 28.8rem;
+  }
+
+  &__headline {
+    font-weight: 700;
+    font-size: 2.2rem;
+    line-height: 2.8rem;
+    color: $color-blue-dark;
+    margin-bottom: 1.6rem;
+  }
+
+  &__instruction {
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 1.9rem;
+    letter-spacing: 0.1875px;
+    color: $color-blue-greyish;
+    padding: 0 1.6rem;
+  }
+}
