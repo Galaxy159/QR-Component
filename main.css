@@ -31,18 +31,6 @@ body {
   }
 }
 
-.attribution {
-  position: absolute;
-  bottom: 0;
-  right: 50%;
-  transform: translateX(50%);
-  font-size: 1.1rem;
-}
-
-.attribution a {
-  color: hsl(228deg, 45%, 44%);
-}
-
 .component {
   display: grid;
   padding: 1.6rem;
